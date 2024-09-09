@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Oswald-Regular";
+  src: local("Oswald"),
+    url("../fonts/Oswald-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: local("Oswald"),
+    url("../fonts/Oswald-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Oswald-Light";
+  src: local("Oswald"),
+    url("../fonts/Oswald-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Oswald-Medium";
+  src: local("Oswald"),
+    url("../fonts/Oswald-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Oswald-SemiBold";
+  src: local("Oswald"),
+    url("../fonts/Oswald-SemiBold.ttf") format("opentype");
+}
+
+body {
+  font-family: "Oswald-Regular";
+  font-size: 20px;
+  color: #333333;
+
+  a {
+    font-family: "Oswald-Regular";
+    font-size: 20px;
+    color: #333333;
+  }
+
+  .a2{
+    a {
+       font-family: "Oswald-Regular";
+      font-size: 20px;
+      color: #368feb;   
+    }
+  }
+
+  h1 {
+    font-family: "Oswald-regular";
+    font-size: 25px;
+    color: #000000;
+  }
+
+  h2 {
+    font-family: "Oswald-regular";
+    font-size: 70px;
+    color: #ffffff;
+  }
+
+  h3 {
+    font-family: "Oswald-Regular";
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  h4 {
+    font-family: "Oswald-Regular";
+    font-size: 36px;
+    color: #265aae;
+  }
+
+  h5 {
+    font-family: "Oswald-Regular";
+    font-size: 25px;
+    color: #000000;
+  }
+  h6 {
+    font-family: "Oswald-Regular";
+    font-size: 40px;
+    color: #265aae;
+  }
+}
